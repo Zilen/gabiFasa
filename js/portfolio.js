@@ -39,13 +39,13 @@ $( document ).ready(function() {
             '                    </div>                                                                                                                              '+
             '                </div>                                                                                                                                  '+
             '            </div>                                                                                                                                      '+
-            '            <div class="container">                                                                                                                     '+
+            '            <div class="container" style="max-width:100%; max-height:100%;">                                                                                                                     '+
             '                <div class="row">                                                                                                                       '+
             '                    <div class="col-lg-12">                                                                                              '+
-            '                        <div class="modal-body " >                                                                                                        '+
-            '                            <h2>'+$(this).data('titulo')+'</h2>                                                                                                       '+
-            '                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                                                '+
-            '                            <img class="img-responsive img-centered" src="'+ $(this).children('img').attr('src') +'" alt="" style="width:100%; height:100%;">                                    '+
+            '                        <div class="modal-body" >                                                                                                        '+
+            '                            <h2  style="max-width:100%; max-height:100%;">'+$(this).data('titulo')+'</h2>                                                                                                       '+
+            '                            <p class="item-intro text-muted">'+$(this).data('texto-desc')+'</p>                                                '+
+            '                            <img class="img-responsive img-centered" src="'+ $(this).children('img').attr('src') +'" alt="" style="max-width:100%; max-height:100%;">                                    '+
             '                            <p>teste</p>                                                                                                                '+
             '                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>       '+
             '                        </div>                                                                                                                          '+
